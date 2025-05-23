@@ -42,14 +42,14 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="bg-white/90 backdrop-blur-md shadow-md sticky top-0 z-50">
+    <nav className="bg-white border-b-1 border-teal-100 backdrop-blur-md  sticky top-0 z-50">
       <Toaster position="top-right" />
       <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
         <div className="flex items-center space-x-3">
           <img src={logo} alt="" width={40} />
           <Link to="/" className="text-xl lg:text-3xl font-bold tracking-tight">
             <span className="text-gray-800">Track</span>
-            <span className="text-teal-600 bg-gradient-to-r from-teal-600 to-green-400 bg-clip-text text-transparent">
+            <span className=" bg-gradient-to-r from-teal-700 to-green-400 bg-clip-text text-transparent">
               NGo
             </span>
           </Link>

@@ -19,6 +19,7 @@ const SocialLogin = () => {
               name: auth?.currentUser?.displayName,
               email: auth?.currentUser?.email,
               photoURL: auth?.currentUser?.photoURL,
+              userType: "User",
             };
     
             // POST request to backend
