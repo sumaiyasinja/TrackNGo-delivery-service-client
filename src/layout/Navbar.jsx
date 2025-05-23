@@ -85,12 +85,20 @@ const Navbar = () => {
               </div>
             </div>
           ) : (
+           <>
             <Link
               to="/login"
               className="px-4 py-2 bg-teal-600 text-white rounded-xl shadow hover:bg-teal-500 transition"
             >
               Login
             </Link>
+             <Link
+              to="/register"
+              className="px-4 py-2 bg-teal-600 text-white rounded-xl shadow hover:bg-teal-500 transition"
+            >
+              Register
+            </Link>
+            </>
           )}
         </div>
 
@@ -125,12 +133,20 @@ const Navbar = () => {
               </button>
             </>
           ) : (
+            <>
             <Link
               to="/login"
-              className="block text-teal-600 font-semibold hover:underline"
+              className="px-4 py-2 bg-teal-600 text-white rounded-xl shadow hover:bg-teal-500 transition"
             >
               Login
             </Link>
+             <Link
+              to="/register"
+              className="px-4 py-2 bg-teal-600 text-white rounded-xl shadow hover:bg-teal-500 transition"
+            >
+              Register
+            </Link>
+            </>
           )}
         </div>
       )}
