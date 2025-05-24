@@ -1,4 +1,4 @@
-import logo from "../assets/logo/logo (1).png";
+import logo from "../assets/images/logo.png";
 import { Link } from "react-router-dom";
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
 import { motion } from "framer-motion";

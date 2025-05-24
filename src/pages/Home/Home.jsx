@@ -1,6 +1,6 @@
 import Banner from '../../components/Banner';
 import Features from '../../components/Features';
-import Statistics from '../../components/Statistics';
+import StatsSection from '../../components/StatsSection';
 import TopDeliveryMan from './../../components/TopDeliveryMan';
 
 const Home = () => {
@@ -8,7 +8,7 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <Features></Features>
-            <Statistics></Statistics>
+            <StatsSection></StatsSection>
             <TopDeliveryMan></TopDeliveryMan>
         </div>
     );

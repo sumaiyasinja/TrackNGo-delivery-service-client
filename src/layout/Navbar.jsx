@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
 import { FaBell, FaBars, FaTimes } from "react-icons/fa";
 import NotificationButton from "../components/NotificationButton ";
-import logo from "../assets/logo/logo (1).png";
+import logo from "../assets/images/logo.png";
 import useAuth from "../hooks/useAuth";
 import toast, { Toaster } from "react-hot-toast";
 
