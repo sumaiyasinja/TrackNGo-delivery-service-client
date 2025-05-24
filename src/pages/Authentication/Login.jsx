@@ -2,22 +2,18 @@ import { useLocation, useNavigate } from "react-router-dom";
 import toast, { Toaster } from "react-hot-toast";
 import { useLottie } from "lottie-react";
 import animationData from "../../assets/lootiefiles/deliverman.json";
-import useAuth from './../../hooks/useAuth';
-import useAxiosPublic from './../../axiosInstance/useAxiosPublic';
+import useAuth from "./../../hooks/useAuth";
 import SocialLogin from "../../shared/SocialLogin";
-
 
 const Login = () => {
   const { loginWithEmailPassword } = useAuth();
-  const axiosPublic = useAxiosPublic();
   const navigate = useNavigate();
   const location = useLocation();
   const options = {
     animationData: animationData,
-    loop: true
+    loop: true,
   };
   const { View } = useLottie(options);
-
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -36,8 +32,6 @@ const Login = () => {
         toast.error(error.message);
       });
   };
-
-  
 
   return (
     <div>
@@ -58,7 +52,7 @@ const Login = () => {
           },
         }}
       />
-      
+
       <div className="flex w-full overflow-hidden rounded-xl shadow-md h-full py-6">
         {/* Design Side */}
         <div className="relative hidden items-center justify-center md:flex md:w-[50%]">
