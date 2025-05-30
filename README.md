@@ -1,12 +1,90 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📦 TrackNGo - Parcel Management System
 
-Currently, two official plugins are available:
+TrackNGo is a full-stack parcel management web application designed for booking, managing, and tracking parcel deliveries with ease. Built with the **MERN stack**, the platform features user role management, real-time delivery tracking, reviews, payment integration, and an advanced admin dashboard.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔗 Live Website
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> 🌐 [TrackNGo Live](https://trackngo-delivery-service.web.app)  
+
+---
+
+## 🚀 Features
+
+### ✅ General
+- Responsive and modern UI built with **React** + **TailwindCSS**
+- Authentication with **Firebase**
+- Role-based access control (User, Delivery Men, Admin)
+- Image uploads via **imgbb API** 
+
+### 🧑‍💼 User Functionality
+- Register/login with email/password or social login
+- Book parcels with relevant details
+- View delivery status and history
+- Give reviews and ratings for delivery men
+
+### 🚚 Delivery Man
+- See assigned parcels
+- Mark parcels as delivered
+- View ratings and parcel history
+
+### 🛠️ Admin Panel
+- Promote users to Delivery Man/Admin
+- View total users, parcels, and revenue
+- Manage all parcels, users, and reviews
+- Add promotional banners or content
+
+### 💳 Payments
+- Stripe integration for parcel booking
+- Secure and simple checkout
+
+### 📊 Statistics & Visualization
+- Dashboard with animated statistics using **react-countup**
+- Top delivery men based on delivery count and average rating
+- Data fetched from backend with **TanStack React Query**
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend:
+- React
+- React Router
+- Tailwind CSS
+- Framer Motion
+- React Hook Form
+- React CountUp
+- React Query (TanStack)
+
+### Backend:
+- Node.js
+- Express.js
+- MongoDB 
+- JWT for authorization
+- Stripe for payment processing
+
+---
+
+
+## 🧪 Installation & Setup
+
+### 📦 Backend Setup
+
+```bash
+cd server
+npm install
+npm start
+```
+
+### 🌐 Frontend Setup
+
+```bash
+cd client
+npm install
+npm run dev
+```
+
+---
+

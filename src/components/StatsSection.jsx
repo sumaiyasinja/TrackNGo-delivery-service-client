@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import useAxiosPublic from "../axiosInstance/useAxiosPublic";
 import StatCard from "./StatCard";
 
-
 const StatsSection = () => {
   const [stats, setStats] = useState({
     totalBooked: 0,
@@ -25,7 +24,8 @@ const StatsSection = () => {
   }, []);
 
   return (
-    <section className="py-12 bg-teal-50">
+    <section
+     className="py-12 bg-teal-50">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-3xl font-bold text-center text-teal-800 mb-10">
           App Usage Statistics

@@ -17,11 +17,11 @@ const TopDeliveryMan = () => {
     );
   }
   if(deliveryMen && deliveryMen.length === 0) {
-    return <div className="text-gray-500">No delivery experts founda</div>;
+    return <div className="text-gray-500">No delivery experts found</div>;
   }
 
   if (error) {
-    return <div className="text-red-500">No delivery experts found</div>;
+    return  console.log(error);
   }
 
   return (
